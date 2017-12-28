@@ -1,0 +1,4 @@
+/* Clear the background of transparent images. */
+img.transparent {
+	background: transparent !important;
+}
