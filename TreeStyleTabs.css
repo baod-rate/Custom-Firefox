@@ -31,6 +31,8 @@
 	display: none;
 }
 
+
+
 /* ##### THEME ############################################ */
 @keyframes pulse {
 	0% {
@@ -46,13 +48,22 @@
 		left: calc(50% - 175px);
 	}
 }
+
+
+
 :root {
 	background-color: #383838;
 }
+
+
+
 #tabbar {
 	border-right: 1px solid #1d1d1d;
 	box-shadow: none !important;
 }
+
+
+
 .tab {
 	background-color: transparent;
 	border-color: #292929;
@@ -63,22 +74,36 @@
 }
 .tab:hover {
 	background-color: #404040 !important;
+}
+.tab:hover .label {
 	color: rgba(207,207,207,1) !important;
 }
+
+
+
 .tab.discarded {
 	background-color: #1d1d1d;
-	color: #383838 !important;
+}
+.tab.discarded .label {
+	color: rgba(207,207,207,0.25) !important;
 }
 .tab.discarded:hover {
 	background-color: #292929 !important;
 }
 
+
+
 .tab.active {
 	background-color: #8fa876;
+}
+.tab.active .label {
+	font-weight: bold;
+	color: rgba(207,207,207,1) !important;
 }
 .tab.active:hover {
 	background-color: #8fa876 !important;
 }
+
 
 
 /* Adjust style for tab that has sound playing. */
