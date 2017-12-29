@@ -10,7 +10,7 @@ img.transparent {
 }
 
 /* ##### DARK 'ABOUT' PAGES ##################### */
-@-moz-document url('about:blank') {
+@-moz-document url('about:blank'), url('about:newtab') {
 	body {
 		background-color: #383838 !important;
 	}
