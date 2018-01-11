@@ -6,11 +6,7 @@
             <method name="formatValue">
                 <body><![CDATA[
                     const textNode = this.editor.rootElement.firstChild;
-
-                    if (this.focused) {
-                        textNode.textContent = this._value;
-                        return;
-                    }
+                    if (this.focused) return;
                     try {
                         const url = new URL(this._value);
                         if (/(http|https):/.test(url.protocol)) {
