@@ -22,7 +22,7 @@
 }
 /* Custom bindings.xml in same folder as userChrome, for simple URL */
 #urlbar {
-		-moz-binding: url("bindings.xml#urlbar") !important;
+	-moz-binding: url("bindings.xml#urlbar") !important;
 }
 /* Center URL */
 #urlbar .urlbar-input-box {
