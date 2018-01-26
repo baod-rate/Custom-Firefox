@@ -51,15 +51,10 @@
 
 
 
-:root {
-	background-color: #383838;
-}
-
-
-
 #tabbar {
 	border-right: 1px solid #1d1d1d;
 	box-shadow: none !important;
+	background-color: #383838;
 }
 
 
